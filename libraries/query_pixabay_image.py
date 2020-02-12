@@ -6,7 +6,7 @@ import json
 import os
 
 # Pixabay API Key
-PIXABAY_API_KEY = '[YOUR_PIXABAY_API_KEY]'
+PIXABAY_API_KEY = open('{}/PIXABAY_API_KEY'.format(os.path.dirname(os.path.abspath(__file__))), 'r').read()
 
 def _process_command():
     parser = argparse.ArgumentParser()
