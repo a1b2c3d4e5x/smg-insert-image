@@ -4,7 +4,7 @@ import json
 import os
 
 # ex: python3 insert_images.py --file sample.json
-# ex: python3 insert_images.py --string "{...}"
+# ex: python3 insert_images.py --json "{...}"
 if __name__ == '__main__':
     
     payload = {
