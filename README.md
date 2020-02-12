@@ -45,8 +45,6 @@
 
 ## Usage
 ### Replacing your pixabay api key in ./libraries/PIXABAY_API_KEY file.
-
-## Run
 ```
 python3 insert_images.py --file sample.json
 ```
@@ -60,8 +58,6 @@ result = insert_images_from_file('sample.json')
 print('[RESULT]: {}\n\n'.format(result))
     
 ```
-
-
 ```
 from insert_images import insert_images_from_string
 import json
@@ -86,6 +82,11 @@ payload = {
 json_string = json.dumps(payload)
 result = insert_images_from_string(json_string)
 print('[RESULT]: {}\n\n'.format(result))
+```
+
+## Sample
+```
+python3 sample.py
 ```
 
 ## Note
